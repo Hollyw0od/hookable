@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-gem "activesupport", require: "active_support"
-gem "mongo_mapper"
+gem "activesupport", "4.2.8"
+gem "mongo_mapper", ">= 0.13.0"
 gem "bson_ext"
-gem "json"
+gem "json", ">= 2.3.0"
 gem "dotenv"
 
 group :test do
